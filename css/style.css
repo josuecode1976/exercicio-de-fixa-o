@@ -20,7 +20,7 @@ p{font-size: 1em; color: #222;}
 /*menu*/
 .menu{width:100%;float: left; padding: 8px; background-color:#65c3ba ;}
 .menu li{float: left;}
-.menu li a {margin-right:20px; color: #fff; text-transform:uppercase;font-weight: 600;font-size: 18px;}
+.menu li a {margin-right:20px; color: #fff; text-transform:uppercase;font-weight: 900;font-size: 18px;}
 .menu li a:hover{color:	#028900; border-bottom: 4px solid 	#028900;}
 /*social icons*/
 .social-icons{float: right;}
@@ -29,7 +29,16 @@ p{font-size: 1em; color: #222;}
 .btn-twitter:hover{color:#77aaff;}
 .btn-google:hover{color:#f20505;}
 /*principal*/
-.principal{width:50%; float: left;}
-.principal h2{margin:10px; margin-left:90px; font-weight:bold;}
-.principal img{width:60%; float: left; margin:0 15px 10px 15px; border-radius: 5px;}
-.principal p {text-align: justify; margin-left: 15px;}
+.principal{width:100%; float: left; padding:20px 1%;}
+.sobre {width: 60%; float: left; padding:0 20px 20px 0;}
+.sobre h2{ margin-bottom: 15px;font-weight: 900;}
+.sobre img{width: 70%; float: left; border-radius: 5px; margin: 0 15px 15px 0; }
+.sobre p {text-align: justify; }
+/*sidbar*/
+.onde-estamos{width:40%;float: right; padding:10px 20px; background-color: #f0f0f5; border-radius: 5px;}
+.onde-estamos h2{margin-bottom: 5px;text-transform: capitalize; font-weight: 900;}
+.onde-estamos iframe{width:100%; height:250px; margin: 20px 0;}
+.onde-estamos li{color:#222; margin-bottom: 10px;}
+.onde-estamos i{margin-right: 5px;}
+
+
