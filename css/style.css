@@ -1,0 +1,35 @@
+/*reset*/
+*{margin: 0;
+padding: 0; 
+font-family: 'Roboto', sans-serif;
+font-weight: normal;
+box-sizing: border-box; 
+border: none; 
+outline: none;}
+img{max-width: 100%;}
+ul{list-style: none;}
+a{text-decoration: none;}
+h2{font-size: 1.5em; color: #333;}
+p{font-size: 1em; color: #222;}
+/* cabeçalho*/
+.cabecalho {width: 100%; float: left; padding:8px 8%;  background-color:	#009688 ;}
+.logo{width: 220px; height: 48px; float: left; padding: 4px;}
+.cabecalho form{width: 30%; float: right;}
+.cabecalho input[type="text"]{width: 85%; float: left; padding:8px; background-color: #fff; color: #111; border-radius:  5px 0 0 5px ; text-transform: uppercase; text-align: center; margin-top: 6px;}
+.cabecalho button{width:15%;float: right; padding:6px; background-color:#fff);color: #111; cursor: pointer; border-radius: 0 5px 5px 0 ;margin-top: 6px;}
+/*menu*/
+.menu{width:100%;float: left; padding: 8px; background-color:#65c3ba ;}
+.menu li{float: left;}
+.menu li a {margin-right:20px; color: #fff; text-transform:uppercase;font-weight: 600;font-size: 18px;}
+.menu li a:hover{color:	#028900; border-bottom: 4px solid 	#028900;}
+/*social icons*/
+.social-icons{float: right;}
+.social-icons a {width: 30%; color:#fff; margin-left: 10px;}
+.btn-facebook:hover{color:#2819f3;}
+.btn-twitter:hover{color:#77aaff;}
+.btn-google:hover{color:#f20505;}
+/*principal*/
+.principal{width:50%; float: left;}
+.principal h2{margin:10px; margin-left:90px; font-weight:bold;}
+.principal img{width:60%; float: left; margin:0 15px 10px 15px; border-radius: 5px;}
+.principal p {text-align: justify; margin-left: 15px;}
